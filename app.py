@@ -7,11 +7,11 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+st.title("Libertad para Cuba - Texto a Audio")
+image = Image.open('libertad.png')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Escribe y/o selecciona texto para ser escuchado.")
 
 
 try:
@@ -19,14 +19,12 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
-        
+st.subheader("Un llamado a la Libertad.")
+st.write('Cuba duele en el alma de quienes la quieren libre. Décadas de dictadura han intentado silenciar '  
+         'la voz de un pueblo que clama por sus derechos más básicos, por poder elegir, pensar y ' 
+         'hablar sin miedo. Pero la esperanza no se apaga. Cada voz que se alza, cada exigencia de justicia, '  
+         'es un paso más hacia el fin de la opresión. El anhelo de una nación próspera y soberana ' 
+         'no podrá ser encarcelado para siempre. Patria, Vida y Libertad.'
         )
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
