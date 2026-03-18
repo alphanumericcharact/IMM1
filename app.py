@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Libertad para Cuba - Texto a Audio")
-image = Image.open('libertad.png')
+image = Image.open('Libertad.png')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Escribe y/o selecciona texto para ser escuchado.")
